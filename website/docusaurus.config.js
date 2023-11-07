@@ -61,12 +61,22 @@ const config = {
       }),
     ],
   ],
-
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false,
+        },
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Main',
         logo: {
@@ -131,6 +141,13 @@ const config = {
             ],
           },
         ],
+        logo : {
+          alt: 'Meta Open Source Logo',
+          src: 'img/cropped-cloudco-devops-white.png',
+          href: 'https://docs.subnetwork.ru',
+          width: 160,
+          height: 51,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Community documentation for all.`,
       },
       prism: {
