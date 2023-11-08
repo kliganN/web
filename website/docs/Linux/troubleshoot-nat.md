@@ -2,8 +2,9 @@
 sidebar_position: 10
 ---
 
-
 # Настройка маршрутизации и NAT между двумя подсетями
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 Предположим, что у нас есть две подсети: `192.168.1.0/24` и `192.168.2.0/24`, и мы хотим настроить маршрутизацию и NAT между ними.
 

@@ -4,6 +4,7 @@ sidebar_position: 4
 
 # Разрешения файлов
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 Чтобы просмотреть права доступа к файлу, используйте команду `ls -l` с указанием пути к файлу:
 

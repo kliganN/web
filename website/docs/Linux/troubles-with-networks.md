@@ -4,6 +4,8 @@ sidebar_position: 8
 
 # Диагностика сети
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 :::tip
 Все утилиты используются в реальной работе и траблшутинг является неотъемлемым навыком любого администратора, будто Linux или Windows.
 :::

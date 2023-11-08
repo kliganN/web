@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # SSH по ключу и отключением рута
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 # Настройка SSH-сервера на Linux
 
 Чтобы настроить SSH-сервер на Linux, выполните следующие шаги.

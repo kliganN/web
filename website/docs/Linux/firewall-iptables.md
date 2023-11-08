@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Сетевая безопасность. IPTABLES
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 :::info
 Управление правилами iptables в Linux
 :::

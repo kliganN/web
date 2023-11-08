@@ -4,6 +4,8 @@ sidebar_position: 7
 
 # IPtables. Configure-2
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 ## Управление правилами iptables в Linux
 
 Для добавления правила в цепочку iptables поверх уже существующего правила, используйте опцию `-I` (insert). Например, чтобы добавить правило для разрешения подключения к SSH на порт 22 поверх уже существующего правила, используйте следующую команду:

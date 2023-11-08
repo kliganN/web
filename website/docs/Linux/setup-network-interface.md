@@ -2,8 +2,9 @@
 sidebar_position: 11
 ---
 
-
 # Настройка сетевых интерфейсов и маршрутизации
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ## Просмотр информации о сетевых интерфейсах
 

@@ -2,8 +2,9 @@
 sidebar_position: 15
 ---
 
-
 # Добавление и монтирование диска
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ### Для разметки и добавления нового диска в систему Ubuntu, следуйте этим шагам:
 

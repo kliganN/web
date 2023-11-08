@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Управление пользователями
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 # Добавление пользователя в систему Linux
 
 :::tip Подсказка

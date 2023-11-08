@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Информация о пользователях
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 # Информация о пользователях в системе Linux
 
 Информация о пользователях хранится в файле `/etc/passwd`. Чтобы вывести последние 10 строк из этого файла, используйте команду:

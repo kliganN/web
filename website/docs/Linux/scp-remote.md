@@ -2,8 +2,9 @@
 sidebar_position: 13
 ---
 
-
 # SCP. Удаленное копирование файлов
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 Для копирования файла на удаленный сервер в Linux можно использовать утилиту scp. Формат команды для копирования файла на удаленный сервер с использованием scp выглядит следующим образом:
 

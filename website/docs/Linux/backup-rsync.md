@@ -2,8 +2,9 @@
 sidebar_position: 17
 ---
 
-
 # Резервное копирование rsync
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ## **Резервное копирование каталогов на локальной машине**
 
