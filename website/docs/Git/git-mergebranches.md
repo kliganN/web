@@ -4,6 +4,8 @@ sidebar_position: 13
 
 # Git. Слияние двух веток
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 Чтобы создать две разные ветки и выполнить их слияние в Git, выполните следующие шаги:
 
 1. Создайте новый репозиторий Git или перейдите в уже существующий.

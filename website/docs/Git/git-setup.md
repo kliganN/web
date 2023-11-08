@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Git. Настройка
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ## Git. Настройка конфига
 
 С самого начала рекомендуется настроить конфиг нашего Git.

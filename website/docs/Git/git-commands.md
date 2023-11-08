@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Git. Команды
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 - `git init`: создает новый репозиторий Git в текущей директории.
 - `git clone [url]`: клонирует существующий репозиторий Git на локальный компьютер.
 - `git add [file]`: добавляет изменения в файле или директории в индекс.

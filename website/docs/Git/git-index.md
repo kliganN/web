@@ -4,6 +4,8 @@ sidebar_position: 7
 
 # Git. Index, Staging area
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ## Непрослеживаемые файлы в Git
 
 Когда вы создаете новый файл в вашем Git-репозитории, Git не отслеживает его автоматически. Такой файл называется непрослеживаемым файлом (untracked file). Чтобы добавить непрослеживаемые файлы в область подготовки (staging area), используйте команду `git add`.

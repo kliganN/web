@@ -4,6 +4,8 @@ sidebar_position: 12
 
 # Git. Процесс слияния веток
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ## Процесс слияния веток в Git
 
 В Git слияние веток позволяет объединить изменения, внесенные в одну ветку, с изменениями, внесенными в другую ветку. Вот простой процесс слияния веток в Git:

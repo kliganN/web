@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # Git. Ветка
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ## Branch
 
 **Это так же ссылка на коммит, а коммит это ссылка на дерево(tree).**

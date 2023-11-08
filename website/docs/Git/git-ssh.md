@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Git. Создание SSH к GitHub
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ## Создание SSH-ключей и их связывание с GitHub
 
 Чтобы создать и связать SSH-ключи с GitHub, выполните следующие шаги:

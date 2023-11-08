@@ -4,6 +4,8 @@ sidebar_position: 9
 
 # Git. Пояснение коммита
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 При коммите, git создает дерево в котором будет находиться еще 2 папки и файлы.
 Все это выглядит примерно так:
 

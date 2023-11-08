@@ -4,6 +4,8 @@ sidebar_position: 14
 
 # Git. clone, origin, push
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ## Клонирование репозитория
 
 Чтобы склонировать и загрузить себе локально на ПК или сервер удаленный репозиторий проекта, воспользуйтесь этой командой:

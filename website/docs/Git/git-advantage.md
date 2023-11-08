@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Git. Преимущества
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 Почему же нужен Git и зачем его использовать?
 
 - Можно сохранять разные версии проектов

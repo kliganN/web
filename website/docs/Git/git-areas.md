@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # Git. Области
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 Вот схема, отображающая три основные области Git: рабочая директория (Working Directory), область подготовки (Staging Area) и репозиторий (Repository):
 
 ```bash
