@@ -4,6 +4,9 @@ sidebar_position: 17
 
 # Ansible. with_items
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Ansible with_items. Примеры использования
 
 В Ansible мы можем использовать директиву `with_items` для выполнения повторяющихся задач в цикле. Рассмотрим несколько примеров использования этой директивы.

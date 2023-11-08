@@ -4,6 +4,9 @@ sidebar_position: 6
 
 # Ansible. Playbooks
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Основные понятия
 
 - **Playbook** - отдельный YAML-файл, который определяет набор действий (tasks) для выполнения на хостах

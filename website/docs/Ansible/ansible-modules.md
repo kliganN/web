@@ -3,6 +3,10 @@ sidebar_position: 12
 ---
 
 # Ansible. Модули
+
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 :::tip
 Ansible предоставляет множество модулей, которые можно использовать для автоматизации управления удаленными узлами. Ниже перечислены некоторые из наиболее часто используемых модулей:
 :::

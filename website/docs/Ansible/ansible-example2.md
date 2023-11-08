@@ -4,6 +4,9 @@ sidebar_position: 10
 
 # Ansible. Пример №2
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Создание трех пользователей на удаленном хосте с помощью Ansible
 
 ## Шаг 1: Создание плейбука

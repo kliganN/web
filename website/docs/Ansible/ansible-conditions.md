@@ -4,6 +4,9 @@ sidebar_position: 14
 
 # Ansible. Условия
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 Допустим, что все необходимое ПО уже установлено на серверах, и теперь его нужно запустить. Для этого нужно создать группу серверов в инвентарном файле и написать плейбук с условиями.
 
 В первом примере плейбук запускает сервисы mysqld и httpd на разных серверах в зависимости от их имени хоста.

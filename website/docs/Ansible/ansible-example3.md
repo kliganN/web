@@ -4,6 +4,9 @@ sidebar_position: 11
 
 # Ansible. Пример №3
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Управление файлом конфигурации Apache и перезапуск службы с помощью Ansible
 
 ## Шаг 1: Создание плейбука

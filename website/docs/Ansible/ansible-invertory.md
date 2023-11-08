@@ -4,6 +4,9 @@ sidebar_position: 3
 
 # Ansible. Invertory файл
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Инвертарный файл Ansible
 
 Чтобы использовать Ansible для управления удаленными хостами, необходимо создать инвертарный файл, который содержит информацию о хостах, на которых будет выполняться конфигурация.

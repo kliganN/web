@@ -4,6 +4,9 @@ sidebar_position: 15
 
 # Ansible. Условия. Примеры
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Примеры
 
 В этом примере плейбук определяет переменную `age` и выполняет два задания, которые выводят на экран "I am a child" и "I am an adult". Для выполнения заданий в зависимости от значения переменной `age` используются условия `when`. Если `age` меньше 18, то выполняется первое задание, а если `age` больше или равно 18, то выполняется второе задание.

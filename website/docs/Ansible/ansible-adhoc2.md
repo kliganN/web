@@ -4,6 +4,9 @@ sidebar_position: 5
 
 # Ansible. Ad-Hoc команды-2
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 В этой заметке мы рассмотрим несколько полезных Ad-Hoc модулей в Ansible и их использование:
 
 - `url`: Загрузка файлов или ссылок через HTTP, HTTPS или FTP.

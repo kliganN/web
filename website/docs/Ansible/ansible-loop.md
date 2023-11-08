@@ -4,6 +4,9 @@ sidebar_position: 16
 
 # Ansible. Loop
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 Представим, что нам нужно создать пользователя в системе с помощью Ansible. В простом случае, мы можем использовать модуль `user`, чтобы создать пользователя с заданным именем. Вот так выглядит плейбук для создания пользователя `Boris`:
 
 

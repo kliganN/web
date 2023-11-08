@@ -4,6 +4,9 @@ sidebar_position: 19
 
 # Ansible. Структура файлов и Roles
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 Вот пример структуры каталогов и файлов для роли в Ansible:
 
 ```bash

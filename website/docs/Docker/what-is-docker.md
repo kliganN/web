@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Что такое докер Docker
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white#gh-dark-mode-only)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white#gh-light-mode-only)
+
 
 **Docker** - это платформа для разработки, развертывания и управления контейнерами приложений. Контейнеры Docker представляют из себя легковесные виртуальные среды, которые включают в себя все необходимые зависимости для запуска приложения. Docker позволяет упаковывать приложения в контейнеры, которые могут быть легко перемещены и развернуты на любой платформе, без необходимости устанавливать зависимости и конфигурировать окружение.
 

@@ -4,6 +4,9 @@ sidebar_position: 18
 
 # Ansible. Roles
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 **Чтобы не создавать слишком большие плейбуки в Ansible, их можно разделить на несколько маленьких, используя директиву `include`, которая позволяет подключать другие файлы в основной плейбук. Плейбуки в Ansible обычно делятся на 4 класса:**
 
 - **Packages**

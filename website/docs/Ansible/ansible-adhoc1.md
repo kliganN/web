@@ -3,6 +3,10 @@ sidebar_position: 4
 ---
 
 # Ansible. Ad-Hoc команды
+
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 :::tip Что это?
 Ansible Ad-Hoc команды - это способ выполнения быстрых одноразовых задач на удаленных хостах без необходимости написания и использования плейбуков. Они могут использоваться для быстрой проверки работы конкретной функциональности или для выполнения иных операций на удаленных хостах.
 :::

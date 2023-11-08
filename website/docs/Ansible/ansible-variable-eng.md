@@ -4,6 +4,9 @@ sidebar_position: 13
 
 # Ansible. Variable
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 :::tip
 Ansible позволяет хранить различные данные и конфигурации в переменных. Это удобно, если вы хотите хранить разную информацию для разных хостов, например, параметры конфигурации, порты, IP-адреса и т.д. В Ansible есть два способа определения переменных: в инвентарном файле и в плейбуке.
 :::

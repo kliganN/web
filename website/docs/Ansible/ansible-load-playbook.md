@@ -4,6 +4,9 @@ sidebar_position: 7
 
 # Ansible. Запуск playbook
 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&color=red&logoColor=white#gh-dark-mode-only)
+
 ## Установка и включение сервиса Apache на удаленном хосте с помощью Ansible плейбука
 
 ## Шаг 1: Написание плейбука
