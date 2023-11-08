@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Docker. Первый запуск
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Запуск контейнера
 
 Для запуска контейнера в Docker используется команда `docker run`. Например, для запуска контейнера nginx версии 1.24.0 выполните следующую команду:

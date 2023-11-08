@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # Docker. Entrypoint
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Command и Entrypoint
 
 Команды `CMD` и `ENTRYPOINT` определяют, какая команда должна быть выполнена при запуске контейнера. Команда `CMD` задает аргументы по умолчанию для выполняемой команды, а `ENTRYPOINT` задает команду, которая будет выполнена при запуске контейнера.

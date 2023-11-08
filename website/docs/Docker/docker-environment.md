@@ -4,6 +4,8 @@ sidebar_position: 14
 
 # Docker. Среда выполнения
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Docker среда выполнения
 
 Docker среда выполнения состоит из нескольких компонентов:

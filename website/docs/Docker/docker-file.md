@@ -4,6 +4,8 @@ sidebar_position: 8
 
 # Dockerfile
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Создание Docker-образа с помощью Dockerfile
 :::tip Что такое докерфайл?
 Dockerfile - это текстовый файл, который содержит инструкции для построения Docker-образа. Обычно Dockerfile начинается с указания базового образа, для которого будет выполняться сборка.

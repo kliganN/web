@@ -4,6 +4,8 @@ sidebar_position: 17
 
 # Docker. Пуш в свой репозиторий
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 **После того как мы собрали наш образ, ему нужно присвоить тэг, это ВАЖНО!**
 
 Чтобы добавить тег к Docker-образу, необходимо использовать команду `docker tag`. Эта команда позволяет создавать новые теги для существующих образов.

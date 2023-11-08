@@ -4,6 +4,8 @@ sidebar_position: 9
 
 # Docker. Переменные окружения
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Использование переменных окружения в Docker
 
 В Docker можно использовать переменные окружения для настройки параметров контейнера. Это позволяет гибко настраивать приложения и управлять их параметрами без переписывания кода.

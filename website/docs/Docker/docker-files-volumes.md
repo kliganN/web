@@ -4,6 +4,8 @@ sidebar_position: 15
 
 # Docker. Файловая система и хранилище
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 Docker использует файловую систему и хранилище, которые хранят все компоненты, необходимые для работы контейнеров. Они находятся в директории `/var/lib/docker` и могут включать в себя следующие элементы:
 
 - `overlay2` - файловая система, которая содержит все слои и файлы контейнера.

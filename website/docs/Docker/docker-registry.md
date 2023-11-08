@@ -4,6 +4,9 @@ sidebar_position: 16
 
 # Docker Registry
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+
 `Docker Registry` — это место, где хранятся образы Docker. В продакшене часто используются приватные репозитории.
 
 ## Public Registry

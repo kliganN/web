@@ -4,6 +4,8 @@ sidebar_position: 11
 
 # Docker Compose
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 :::tip Что такое Docker compose?
 Docker Compose - это инструмент для определения и запуска Docker-контейнеров с несколькими сервисами. Он позволяет определить конфигурацию для всех сервисов в одном файле, а затем запустить их одной командой.
 :::

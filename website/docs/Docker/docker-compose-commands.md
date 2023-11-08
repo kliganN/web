@@ -4,6 +4,9 @@ sidebar_position: 13
 
 # Docker Compose. Команды
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+
 ## Команды Docker Compose
 
 Для работы с Docker Compose можно использовать несколько команд:

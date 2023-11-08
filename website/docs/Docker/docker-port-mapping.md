@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Docker. Port Mapping
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Проброс портов в Docker
 :::tip
 Для того чтобы внешние пользователи могли пользоваться сервисом, запущенным в контейнере Docker, необходимо настроить проброс портов.

@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # Docker. Port and Volume Mapping. Пример
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Запуск контейнера Docker с указанием портов и монтированием томов
 
 Для полноценного запуска контейнера Docker необходимо указать порты для внешнего подключения и выполнить монтирование томов с хоста в контейнер. Для этого используются опции `-p` и `-v` команды `docker run`.

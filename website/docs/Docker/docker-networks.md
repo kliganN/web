@@ -3,6 +3,9 @@ sidebar_position: 7
 ---
 
 # Dcoker. Сети
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 :::tip Сети
 Docker позволяет настраивать различные сети для контейнеров, используя различные драйверы сети. Существуют три сети по умолчанию - bridge, none и host.
 :::

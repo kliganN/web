@@ -3,6 +3,9 @@ sidebar_position: 12
 ---
 
 # Docker Compose. Сети
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 :::note
 Данная заметка показывает использование Docker сетей для отделения трафика между фронтендом и бэкендом.
 :::

@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Docker. Начальные команды
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 Docker - это платформа для разработки, доставки и запуска приложений в контейнерах.
 
 ## Основные команды Docker
