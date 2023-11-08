@@ -19,14 +19,21 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            style={{ marginRight: '10px' }} // добавить отступ справа
             to="/docs/intro">
             Get started 📖
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/blog">
+            Blog
           </Link>
         </div>
       </div>
     </header>
   );
 }
+
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();

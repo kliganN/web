@@ -26,9 +26,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_dev_productivity_re_fylf.svg').default,
     description: (
       <>        
-      <p>E-mail: <a href="mailto:kligann@subnetwork.ru">kligann@subnetwork.ru</a></p>
-      <p>Telegram: <a href="https://t.me/kliganN" target="_blank">@kliganN</a></p>
-      <p>Steam: <a href="https://steamcommunity.com/id/BarrySeal1939" target="_blank">BarrySeal1939</a></p>
+      <p>
+      </p>
       </>
     ),
   },
