@@ -19,12 +19,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            style={{ marginRight: '10px' }} // добавить отступ справа
+            style={{ marginRight: '10px', boxShadow: '3px 3px 5px 2px rgba(0, 0, 0, 0.3)' }} // добавить тень и отступ справа
             to="/docs/intro">
             Get started 📖
           </Link>
           <Link
             className="button button--secondary button--lg"
+            style={{ boxShadow: '3px 3px 5px 2px rgba(0, 0, 0, 0.3)' }} // добавить тень
             to="/blog">
             Blog
           </Link>
@@ -33,6 +34,7 @@ function HomepageHeader() {
     </header>
   );
 }
+
 
 
 export default function Home() {
