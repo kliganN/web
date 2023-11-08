@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Установка Nginx на Debian
+# Установка Nginx на Debian 
 
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
