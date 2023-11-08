@@ -14,7 +14,7 @@ sidebar_position: 7
 
 Например, если вы создали новый файл с именем `new-file.js`, `git status` выведет следующее сообщение:
 
-**INDEX AREA**
+### **INDEX AREA**
 
 ```bash
 On branch main
@@ -31,7 +31,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Чтобы добавить файл `new-file.js` в область подготовки(Stage Area), выполните команду `git add new-file.js`. После этого вы увидите, что файл попал в стадию подготовки:
 
-**STAGING AREA**
+### **STAGING AREA**
 
 ```bash
 On branch main
