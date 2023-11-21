@@ -144,10 +144,10 @@ const config = {
         ],
         logo : {
           alt: 'Meta Open Source Logo',
-          src: 'img/logo1.png',
+          src: 'img/logo_test.svg',
           href: 'https://docs.subnetwork.ru',
-          width: 100,
-          height: 60,
+          width: 200,
+          height: 170,
         },
         copyright: `Copyright © ${new Date().getFullYear()} Community documentation for all.`,
       },

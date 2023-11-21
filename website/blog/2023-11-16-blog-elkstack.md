@@ -1,5 +1,5 @@
 ---
-title: Мониторинг с помощью Grafana, Prometheus и Node Exporter.
+title: Установка мониторинга Grafana, Prometheus и Node Exporter.
 description: Monitoring servers
 authors:
   - name: Vladimir Gordeev
@@ -226,3 +226,30 @@ sudo systemctl status prometheus.service
 Если все запустилось без ошибок, то в браузере переходим по нашему ip:port
 **http://192.168.0.36:9090** и наблюдаем наш рабочий `Prometheus`
 ![](img/14.png)
+
+
+### Grafana
+Ну вот наконец мы дошли с Вами и до `Grafana`. Работа **Grafana** заключается в том, чтобы подключиться к `Prometheus` и визуализировать собранные метрики.
+
+Официальный репозиторий `Grafana`: [Ссылка](https://github.com/grafana/grafana)
+В этой статье я использовал версию `OSS 10.2.2`
+
+Скачиваем **.deb** пакет и распакововаем его, но перед этим установим зависимости которые требуются для **Grafana**:
+```bash
+sudo apt-get install -y adduser libfontconfig1 musl
+wget https://dl.grafana.com/oss/release/grafana_10.2.2_amd64.deb
+sudo dpkg -i grafana_10.2.2_amd64.deb
+```
+После установки пакета делаем `sudo systemctl daemon-reload` и `sudo systemctl enable grafana-server.service` и проверим статус `sudo systemctl status grafana-server.service`
+Если все получилось, то вывод будет таким:
+![](img/grafana.png)
+
+:::tip
+Теперь все готово к настройке и работе. Настройку и объяснения к дашборду я объясню в следующей статье.
+:::
+
+Переходим по нашему айпи и порту 3000:  **192.168.0.36:3000**
+![](img/admin.png)
+:::tip
+Заходим в веб-панель по стандартному логину паролю `admin:admin`
+:::
