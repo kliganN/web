@@ -61,7 +61,7 @@ const config = {
       }),
     ],
   ],
-  
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -144,10 +144,10 @@ const config = {
         ],
         logo : {
           alt: 'Meta Open Source Logo',
-          src: 'img/cropped-cloudco-devops-white.png',
+          src: 'img/logo1.png',
           href: 'https://docs.subnetwork.ru',
-          width: 160,
-          height: 51,
+          width: 100,
+          height: 60,
         },
         copyright: `Copyright © ${new Date().getFullYear()} Community documentation for all.`,
       },

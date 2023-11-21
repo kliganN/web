@@ -26,7 +26,7 @@ hide_table_of_contents: false
 mkdir elk && cd elk
 ```
 ### Node Exporter
-Первым делом устанавливаем Node Exporter. Скачайте архив по следующей ссылке: https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz
+Первым делом устанавливаем Node Exporter. Скачайте архив по следующей ссылке: [Node Exporter wget](https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz)
 
 
 Выполните следующие команды для скачивания и разархивирования:
@@ -128,3 +128,29 @@ sudo systemctl enable node_exporter.service
 
 Теперь у вас полностью готовый Node Exporter, развернутый на вашем сервере. Вы можете получить доступ к метрикам по адресу :9100/metrics.
 ![](img/Untitled%202.png)
+
+
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+
+
+### Prometheus
+Далее приступаем к установке `Prometheus`.
+:::note
+В этой статье я использовал последнюю версию 2.48 на момент написания.
+:::
+Переходим в официальный GitHub-репозиторий Prometheus:
+[Prometheus](https://github.com/prometheus/prometheus), читаем документацию и приступаем к скачиванию и установке.
+
+**Прямая ссылка wget:** [Prometheus wget](https://github.com/prometheus/prometheus/releases/download/v2.48.0/prometheus-2.48.0.linux-amd64.tar.gz)
+
+После скачивания вытаскиваем из архива
+```bash
+tar xvfz prometheus-*.tar.gz
+```
