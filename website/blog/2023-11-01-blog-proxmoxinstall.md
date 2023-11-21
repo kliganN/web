@@ -19,6 +19,8 @@ hide_table_of_contents: false
 
 **Самое первое, что мы делаем, это - разворачиваем VM с базовой системой Linux Ubuntu или Debian. В моей заметке я выбрал Debian, он мне нравится больше всех.**
 
+## Samba
+
 Для установки и настройки Samba на сервере с Ubuntu или Debian выполните следующие шаги:
 
 1. Установите Samba с помощью следующей команды:
@@ -49,7 +51,7 @@ sudo smbpasswd -a username
 
 Здесь `jellyfin-media` - это имя вашей сетевой папки, `/path/to/jellyfin-media` - это путь к физической папке на сервере, которую вы хотите сделать доступной по сети, `username` - это имя пользователя Samba, которому вы разрешаете доступ к сетевой папке.
 
-1. Перезапустите Samba, чтобы применить настройки:
+2. Перезапустите Samba, чтобы применить настройки:
 
 ```bash
 sudo service smbd restart
@@ -57,25 +59,29 @@ sudo service smbd restart
 
 Теперь вы можете подключиться к сетевой папке `jellyfin-media` с любого компьютера в сети, используя имя сервера и имя пользователя Samba, которому был разрешен доступ. Например, в Windows вы можете открыть проводник и ввести в адресной строке `\\\\servername\\jellyfin-media`, а затем ввести имя пользователя и пароль для доступа к папке.
 
-**Не забывайте давай права на директории `chmod 777 .`**  
+**Не забывайте давай права на директории `chmod 777 .`**
+
+## Docker
 
 Для установки Docker и запуска контейнеров Jellyfin и qBittorrent внутри виртуальной машины Debian и доступа к папке `/jellyfin-media` вам нужно выполнить следующие шаги:
 
 1. Установите Docker внутри виртуальной машины Debian, следуя инструкциям на официальном сайте Docker: [https://docs.docker.com/engine/install/debian/](https://docs.docker.com/engine/install/debian/) ↗
 2. Запустите контейнер Jellyfin с помощью Docker и привяжите папку `/jellyfin-media`
 
-Т.к у нас у уже есть расшаренная папка /jellyfin-media, создадим внутри нее директории для обеих контейнеров. 
+Т.к у нас у уже есть расшаренная папка /jellyfin-media, создадим внутри нее директории для обеих контейнеров.
 
 1. **jellyconfig**
 2. **torrent**
 
 Еще создадим папку Movies для фильмов **Jellyfin**
 
-Во всех директориях делаем chmod `777 .` 
+Во всех директориях делаем chmod `777 .`
+
+### Jellyfin
 
 Теперь перейдем в `/jellyfin-media/jellyconfig` и создадим `docker-compose.yml`
 
-```yaml
+```yaml title="jdocker-compose.yml"
 version: '3.5'
 services:
   jellyfin:
@@ -99,7 +105,9 @@ services:
 docker compose up -d
 ```
 
-1. Запустите контейнер qBittorrent с помощью Docker и привяжите папку `/jellyfin-media`
+### qBittorrent
+
+3. Запустите контейнер qBittorrent с помощью Docker и привяжите папку `/jellyfin-media`
 
 Переходим в директорию /jellyfin-media/torrent и так же создаем docker-compose.yml
 
@@ -142,4 +150,3 @@ docker-compose up -d
 [Docker](https://hub.docker.com/r/linuxserver/qbittorrent)
 
 Теперь вы можете добавлять медиафайлы в папку `/jellyfin-media` на сервере, которые будут автоматически распознаваться и добавляться в библиотеку Jellyfin, а также загружать торрент-файлы в папку `/jellyfin-media` на сервере, которые будут автоматически обрабатываться qBittorrent.
----

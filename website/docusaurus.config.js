@@ -49,6 +49,7 @@ const config = {
             'https://github.com/kliganN/docusaurus-web/tree/main',
         },
         blog: {
+
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -78,7 +79,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Main',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
