@@ -153,4 +153,76 @@ sudo systemctl enable node_exporter.service
 После скачивания вытаскиваем из архива
 ```bash
 tar xvfz prometheus-*.tar.gz
+cd prometheus-*
 ```
+
+Переносим нашу директорию в `/usr/local/bin`
+```bash
+sudo mv prometheus-2.48.0.linux-amd64/ /usr/local/bin/prometheus
+```
+
+Так же создаем отдельно юзера для **Prometheus**
+```bash
+sudo useradd -M -U prometheus
+```
+
+Назначаем владельца директории:
+```bash
+sudo chown prometheus:prometheus -R /usr/local/bin/prometheus
+```
+
+Нужно настроить **Prometheus** на сбор метрик из двух сервисов, `себя` и `node_exporter`
+В директории есть файл `prometheus.yml` в него мы добавляем наши строчки:
+:::note
+Замените IP на ваш.
+:::
+```yaml
+    static_configs:
+      - targets: ['192.168.0.36:9090', 192.168.0.36:9100']
+```
+Создаем systemd сервис в `/etc/systemd/system/prometheus.service` для автозапуска.
+```bash
+[Unit]
+Description=Prometheus Service
+After=network-online.target
+
+[Service]
+User=prometheus
+Group=prometheus
+Restart=on-failure
+ExecStart=/usr/local/bin/prometheus/prometheus \
+  --config.file=/usr/local/bin/prometheus/prometheus.yml \
+  --storage.tsdb.path=/usr/local/bin/prometheus/data \
+  --storage.tsdb.retention.time=30d
+
+[Install]
+WantedBy=multi-user.target
+```
+:::danger
+Не забываем сделать релоад systemd.
+:::
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start prometheus.service
+```
+
+Добавляем в автозагрузку:
+```bash
+sudo systemctl enable prometheus.service
+```
+
+Ребутаем сервер
+```bash
+sudo reboot
+```
+
+После ребута проверяем все ли правильно запустилось
+```bash
+sudo systemctl status node_exporter.service
+sudo systemctl status prometheus.service
+```
+
+Если все запустилось без ошибок, то в браузере переходим по нашему ip:port
+**http://192.168.0.36:9090** и наблюдаем наш рабочий `Prometheus`
+![](img/14.png)
