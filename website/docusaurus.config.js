@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'SysAdmin and DevOps practices',
   tagline: 'Community documentation',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/subnetwork-favicon-color.svg',
 
   // Set the production url of your site here
   url: 'https://docs.subnetwork.ru',
@@ -145,10 +145,9 @@ const config = {
         ],
         logo : {
           alt: 'Meta Open Source Logo',
-          src: 'img/logo_test.svg',
+          src: 'img/logo-no-background.svg',
           href: 'https://docs.subnetwork.ru',
-          width: 200,
-          height: 170,
+
         },
         copyright: `Copyright © ${new Date().getFullYear()} Community documentation for all.`,
       },
