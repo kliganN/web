@@ -69,16 +69,17 @@ const config = {
       // Replace with your project's social card
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
           autoCollapseCategories: false,
         },
       },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
+        hideOnScroll: true,
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
