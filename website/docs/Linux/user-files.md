@@ -2,7 +2,7 @@
 sidebar_position: 18
 ---
 
-# Копирование пользовательских файлов в другую директорию.
+# Копирование пользовательских файлов в другую директорию
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
